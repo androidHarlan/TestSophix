@@ -182,3 +182,18 @@ handlePatchVersion: 当前处理的补丁版本号, 0:无 -1:本地补丁 其它
     int CODE_LOAD_LIB_INJECT = 136;//注入异常
     int CODE_LOAD_LIB_NS = 137;
 ~~~~
+# 四，生成补丁
+2.1 下载打包工具
+patch补丁包生成需要使用到打补丁工具SophixPatchTool, 如还未下载打包工具，请前往下载Android打包工具。
+
+Mac版本打包工具地址：http://ams-hotfix-repo.oss-cn-shanghai.aliyuncs.com/SophixPatchTool_macos.zip
+
+Windows版本打包工具地址：http://ams-hotfix-repo.oss-cn-shanghai.aliyuncs.com/SophixPatchTool_windows.zip
+
+Linux版本打包工具地址：http://ams-hotfix-repo.oss-cn-shanghai.aliyuncs.com/SophixPatchTool_linux.zip
+
+调试工具地址：http://ams-hotfix-repo.oss-cn-shanghai.aliyuncs.com/hotfix_debug_tool-release.apk
+
+该工具提供了Windows和macOS和Linux版本，Windows下运行SophixPatchTool.exe，macOS下运行SophixPatchTool.app，Linux下（Ubuntu 16.04 64bit最佳）运行SophixPatchTool。并且需要安装Java环境且在JDK7或以上才能正常使用。
+
+# 参考http://blog.csdn.net/xiongtao63/article/details/77847822?locationNum=3&fps=1
